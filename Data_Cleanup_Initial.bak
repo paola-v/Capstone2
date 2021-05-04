@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Global Attitudes and Trends</AnnotationText>
+          <DefaultAnnotationText>Pew_Global_Attributes_Trends.xlsx
+Query=`Details$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Here is the 'ladder of life.' Let's suppose the top of the ladder represents the best possible life for you; and the bottom, the worst possible life for you. On which step of the ladder do you feel you stand at the present time? [365]" size="255" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="V_String" />
+            <Field name="F3" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F4" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F5" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F6" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F7" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F9" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F10" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F11" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F12" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F13" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F14" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="F15" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="186" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Here is the 'ladder of life.' Let's suppose the top of the ladder represents the best possible life for you; and the bottom, the worst possible life for you. On which step of the ladder do you feel you stand at the present time? [365]" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F14" />
+            <Field name="F15" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Make the first row the header</AnnotationText>
+          <DefaultAnnotationText>Make the first row the header</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="255" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="V_String" />
+            <Field name="Survey" size="255" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="V_String" />
+            <Field name="0" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="1" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="2" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="3" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="4" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="5" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="6" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="7" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="9" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="10" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="Field_16" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+            <Field name="Field_16_2" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Pew_Global_Attributes_Trends.xlsx|||`Details$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Country</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF ISNULL ([Country])
+THEN [Row-1:Country]
+ELSE [Country]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Copy country names down the rows</AnnotationText>
+          <DefaultAnnotationText>IF ISNULL ([Country])
+THEN [Row-1:Country]
+ELSE [Country]
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="462" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Survey</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Survey</RootName>
+          <Delimeters value=" " />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="558" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"Country","Survey","0","1","2","3","4","5","6","7","8","9","10","Field_16","Field_16_2","Survey1","Survey2"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Country" selected="True" />
+            <SelectField field="Survey2" selected="True" rename="Survey Year string" />
+            <SelectField field="DateTime_Out" selected="True" rename="Survey Year date" />
+            <SelectField field="Survey" selected="False" />
+            <SelectField field="0" selected="True" type="Int16" size="2" />
+            <SelectField field="1" selected="True" type="Int16" size="2" />
+            <SelectField field="2" selected="True" type="Int16" size="2" />
+            <SelectField field="3" selected="True" type="Int16" size="2" />
+            <SelectField field="4" selected="True" type="Int16" size="2" />
+            <SelectField field="5" selected="True" type="Int16" size="2" />
+            <SelectField field="6" selected="True" type="Int16" size="2" />
+            <SelectField field="7" selected="True" type="Int16" size="2" />
+            <SelectField field="8" selected="True" type="Int16" size="2" />
+            <SelectField field="9" selected="True" type="Int16" size="2" />
+            <SelectField field="10" selected="True" type="Int16" size="2" />
+            <SelectField field="Field_16" selected="False" />
+            <SelectField field="Field_16_2" selected="False" />
+            <SelectField field="Survey1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="690" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Survey2</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Survey2 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_Cleanup_Initial</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
