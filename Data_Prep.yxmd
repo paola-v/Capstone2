@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="65" y="1541" width="1415" height="453" />
+        <Position x="64" y="1541" width="1416" height="454" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -21,7 +21,7 @@
       <ChildNodes>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="90" y="1591" />
+            <Position x="89" y="1591" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -50,7 +50,7 @@
                 <Field name="Country" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
                 <Field name="Total" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
                 <Field name="Very happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
-                <Field name="Rather happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
+                <Field name="Quite happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
                 <Field name="Not very happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
                 <Field name="Not at all happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2004_Wave4.csv" type="V_String" />
               </RecordInfo>
@@ -60,7 +60,7 @@
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="1674" />
+            <Position x="91" y="1673" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -138,7 +138,7 @@
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="222" y="1590" />
+            <Position x="221" y="1590" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -176,7 +176,7 @@
         </Node>
         <Node ToolID="63">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="223" y="1759" />
+            <Position x="221" y="1758" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -226,7 +226,7 @@
                 <Field name="Very happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2020_Wave7.csv" type="V_String" />
                 <Field name="Quite happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2020_Wave7.csv" type="V_String" />
                 <Field name="Not very happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2020_Wave7.csv" type="V_String" />
-                <Field name="Not at all  happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2020_Wave7.csv" type="V_String" />
+                <Field name="Not at all happy" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\World Values Survey\2020_Wave7.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -250,25 +250,6 @@
             </Annotation>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-        </Node>
-        <Node ToolID="69">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="391" y="1747" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ByName_ErrorMode>Warning</ByName_ErrorMode>
-              <ByName_OutputMode>All</ByName_OutputMode>
-              <Mode>ByName</Mode>
-              <SetOutputOrder value="False" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
         </Node>
         <Node ToolID="70">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
@@ -530,11 +511,30 @@ Year_WVS - Ascending</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
         </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="378" y="1722" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="66" y="365" width="1333" height="298" />
+        <Position x="66" y="364" width="1260" height="299" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -552,7 +552,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="414" />
+            <Position x="91" y="413" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -650,7 +650,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="258" y="415" />
+            <Position x="257" y="415" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -714,7 +714,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="33">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="283" y="547" />
+            <Position x="282" y="547" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -799,7 +799,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
                 <SelectField field="Country Code" selected="True" />
                 <SelectField field="Region" selected="True" />
                 <SelectField field="IncomeGroup" selected="True" />
-                <SelectField field="SpecialNotes" selected="True" />
+                <SelectField field="SpecialNotes" selected="False" />
                 <SelectField field="2000" selected="True" />
                 <SelectField field="2001" selected="True" />
                 <SelectField field="2002" selected="True" />
@@ -835,27 +835,9 @@ Year_WVS - Ascending</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
         </Node>
-        <Node ToolID="36">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="727" y="475" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Expression>Contains([SpecialNotes],"aggregate")</Expression>
-              <Mode>Custom</Mode>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <AnnotationText>Remove region aggregates</AnnotationText>
-              <DefaultAnnotationText>Contains([SpecialNotes],"aggregate")</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-        </Node>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="871" y="487" />
+            <Position x="726" y="474" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -894,38 +876,9 @@ IsNu...</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
         </Node>
-        <Node ToolID="47">
-          <GuiSettings>
-            <Position x="979" y="499" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Value name="Ranges">1-44
-46-55
-57-106
-108-112
-115-116
-118
-120-134
-136-153
-155
-157-163
-166-168
-170-174
-176+</Value>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <AnnotationText>Remove the general and wold index raws</AnnotationText>
-              <DefaultAnnotationText><![CDATA[Remove the general ]]></DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings Macro="SelectRecords.yxmc" />
-        </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1219" y="499" />
+            <Position x="1086" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -970,7 +923,7 @@ IsNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="101">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1315" y="499" />
+            <Position x="1242" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -996,7 +949,7 @@ IsNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="118">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="1099" y="499" />
+            <Position x="906" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1005,7 +958,6 @@ IsNu...</DefaultAnnotationText>
                 <Field field="Country Code" selected="True" />
                 <Field field="Region" selected="True" />
                 <Field field="IncomeGroup" selected="True" />
-                <Field field="SpecialNotes" selected="True" />
                 <Field field="2000" selected="True" />
                 <Field field="2001" selected="True" />
                 <Field field="2002" selected="True" />
@@ -1037,11 +989,10 @@ IsNu...</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Country Name" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="V_String" />
+                <Field name="Country Name" size="50" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="V_String" />
                 <Field name="Country Code" size="3" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="String" />
                 <Field name="Region" size="26" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Metadata_Country_2019.csv" type="V_String" />
-                <Field name="IncomeGroup" size="19" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Metadata_Country_2019.csv" type="String" />
-                <Field name="SpecialNotes" size="254" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Metadata_Country_2019.csv" type="V_String" />
+                <Field name="IncomeGroup" size="19" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\Metadata_Country_2019.csv" type="V_String" />
                 <Field name="2000" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="Double" />
                 <Field name="2001" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="Double" />
                 <Field name="2002" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\GDP_Country_2019.csv" type="Double" />
@@ -2159,7 +2110,7 @@ Custom</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">D:\Training\DA_Bootcamp\Capstone2\Clean Data\LIfe_Ladder.csv</File>
+              <File MaxRecords="" FileFormat="0">D:\Training\DA_Bootcamp\Capstone2\Clean Data\Life_Ladder_trends.csv</File>
               <Passwords />
               <FormatSpecificOptions>
                 <LineEndStyle>CRLF</LineEndStyle>
@@ -2173,8 +2124,7 @@ Custom</DefaultAnnotationText>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <AnnotationText>life_ladder_trends.csv</AnnotationText>
-              <DefaultAnnotationText>LIfe_Ladder.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>Life_Ladder_trends.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -2616,7 +2566,7 @@ Query=`Data$`</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_20200_6a1a3bfba0c9487d97ddffdb992b45ca_\Engine_28268_115c9cb9e0804c1a867ca517c9e3acaa_.yxdb</TempFile>
+              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_8204_26af53c015744dde82c84a1917e0465b_\Engine_18160_e1d810d9110c4f97a0637a8419d6a9da_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2750,27 +2700,23 @@ Custom</DefaultAnnotationText>
     </Connection>
     <Connection name="#1">
       <Origin ToolID="61" Connection="Output" />
-      <Destination ToolID="69" Connection="Input" />
+      <Destination ToolID="123" Connection="Input" />
     </Connection>
     <Connection name="#2">
       <Origin ToolID="62" Connection="Output" />
-      <Destination ToolID="69" Connection="Input" />
+      <Destination ToolID="123" Connection="Input" />
     </Connection>
     <Connection name="#3">
       <Origin ToolID="63" Connection="Output" />
-      <Destination ToolID="69" Connection="Input" />
+      <Destination ToolID="123" Connection="Input" />
     </Connection>
     <Connection name="#4">
       <Origin ToolID="68" Connection="Output" />
-      <Destination ToolID="69" Connection="Input" />
+      <Destination ToolID="123" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="67" Connection="Output" />
       <Destination ToolID="68" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="69" Connection="Output" />
-      <Destination ToolID="71" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="70" Connection="Output" />
@@ -2805,6 +2751,10 @@ Custom</DefaultAnnotationText>
       <Destination ToolID="72" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="31" Connection="Output" />
       <Destination ToolID="32" Connection="Input" />
     </Connection>
@@ -2822,18 +2772,10 @@ Custom</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="35" Connection="Output" />
-      <Destination ToolID="36" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="36" Connection="False" />
       <Destination ToolID="46" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="46" Connection="False" />
-      <Destination ToolID="47" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="47" Connection="Output" />
       <Destination ToolID="118" Connection="Input" />
     </Connection>
     <Connection>
