@@ -1,4 +1,4 @@
-Country,Country Code,Region,Survey Year,0,1,2,3,4,5,6,7,8,9,10
+Country,Country Code,Region,Year_Survey,0,1,2,3,4,5,6,7,8,9,10
 Angola,AGO,Sub-Saharan Africa,2002-01-01,3,10,9,17,20,20,10,6,3,1,1
 Argentina,ARG,Latin America & Caribbean,2002-01-01,5,2,2,5,7,20,14,16,17,5,7
 Argentina,ARG,Latin America & Caribbean,2007-01-01,1,1,1,2,4,16,16,24,21,7,6
