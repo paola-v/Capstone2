@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="64" y="1541" width="1416" height="454" />
+        <Position x="54" y="1529" width="1416" height="453" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -21,7 +21,7 @@
       <ChildNodes>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="89" y="1591" />
+            <Position x="80" y="1578" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -60,7 +60,7 @@
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="1673" />
+            <Position x="80" y="1661" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -99,7 +99,7 @@
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="90" y="1758" />
+            <Position x="79" y="1746" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -138,7 +138,7 @@
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="221" y="1590" />
+            <Position x="212" y="1578" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -157,7 +157,7 @@
         </Node>
         <Node ToolID="62">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="223" y="1675" />
+            <Position x="211" y="1662" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -176,7 +176,7 @@
         </Node>
         <Node ToolID="63">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="221" y="1758" />
+            <Position x="212" y="1746" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -195,7 +195,7 @@
         </Node>
         <Node ToolID="67">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="1866" />
+            <Position x="79" y="1854" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -234,7 +234,7 @@
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="222" y="1867" />
+            <Position x="212" y="1854" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -253,7 +253,7 @@
         </Node>
         <Node ToolID="70">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="679" y="1747" />
+            <Position x="668" y="1734" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -281,7 +281,7 @@
         </Node>
         <Node ToolID="71">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="523" y="1747" />
+            <Position x="512" y="1734" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -303,7 +303,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="72">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1182" y="1794" />
+            <Position x="1172" y="1782" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -323,7 +323,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="94">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="679" y="1819" />
+            <Position x="668" y="1806" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -358,7 +358,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="95">
           <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-            <Position x="775" y="1759" />
+            <Position x="764" y="1746" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -383,7 +383,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1350" y="1794" />
+            <Position x="1340" y="1782" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -409,7 +409,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="120">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="811" y="1879" />
+            <Position x="800" y="1866" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -448,7 +448,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="121">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="907" y="1795" />
+            <Position x="896" y="1782" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -478,7 +478,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="122">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1038" y="1794" />
+            <Position x="1028" y="1782" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -513,7 +513,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="123">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="378" y="1722" />
+            <Position x="368" y="1710" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -534,7 +534,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="66" y="364" width="1260" height="299" />
+        <Position x="56" y="364" width="1260" height="299" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -552,7 +552,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="413" />
+            <Position x="81" y="413" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -650,7 +650,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="257" y="415" />
+            <Position x="247" y="415" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -714,7 +714,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="33">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="282" y="547" />
+            <Position x="272" y="547" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -754,7 +754,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="427" y="475" />
+            <Position x="417" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -788,7 +788,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="571" y="475" />
+            <Position x="561" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -837,7 +837,7 @@ Year_WVS - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="726" y="474" />
+            <Position x="716" y="474" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -878,7 +878,7 @@ IsNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1086" y="486" />
+            <Position x="1076" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -923,7 +923,7 @@ IsNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="101">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1242" y="486" />
+            <Position x="1232" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -949,7 +949,7 @@ IsNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="118">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="906" y="486" />
+            <Position x="896" y="486" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1022,7 +1022,7 @@ IsNu...</DefaultAnnotationText>
     </Node>
     <Node ToolID="54">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="66" y="54" width="1620" height="261" />
+        <Position x="56" y="54" width="1620" height="261" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1040,7 +1040,7 @@ IsNu...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="103" />
+            <Position x="81" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1078,7 +1078,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="235" y="103" />
+            <Position x="225" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1110,7 +1110,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="21">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="367" y="115" />
+            <Position x="357" y="115" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1143,7 +1143,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="499" y="127" />
+            <Position x="489" y="127" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1174,7 +1174,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="607" y="126" />
+            <Position x="597" y="126" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1196,7 +1196,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="727" y="126" />
+            <Position x="717" y="126" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1229,7 +1229,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="89">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="847" y="187" />
+            <Position x="837" y="187" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1264,7 +1264,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="90">
           <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-            <Position x="979" y="115" />
+            <Position x="969" y="115" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1289,7 +1289,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="92">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1555" y="127" />
+            <Position x="1545" y="127" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1315,7 +1315,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="97">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1123" y="115" />
+            <Position x="1113" y="115" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1336,7 +1336,7 @@ Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="113">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1243" y="199" />
+            <Position x="1233" y="199" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1375,7 +1375,7 @@ Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="114">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1339" y="127" />
+            <Position x="1329" y="127" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1406,7 +1406,7 @@ Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="115">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1459" y="127" />
+            <Position x="1449" y="127" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1446,7 +1446,7 @@ Year - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="53">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="1014" width="2015" height="465" />
+        <Position x="55" y="1025" width="2015" height="465" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1464,7 +1464,7 @@ Year - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="1063" />
+            <Position x="80" y="1074" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1506,7 +1506,7 @@ Query=`Details$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
-            <Position x="223" y="1075" />
+            <Position x="224" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1564,7 +1564,7 @@ Query=`Details$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-            <Position x="355" y="1075" />
+            <Position x="356" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1595,7 +1595,7 @@ ENDIF</DefaultAnnotationText>
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="499" y="1075" />
+            <Position x="500" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1617,7 +1617,7 @@ ENDIF</DefaultAnnotationText>
         </Node>
         <Node ToolID="13">
           <GuiSettings>
-            <Position x="619" y="1075" />
+            <Position x="620" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1646,7 +1646,7 @@ ENDIF</DefaultAnnotationText>
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="943" y="1075" />
+            <Position x="944" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1685,7 +1685,7 @@ ENDIF</DefaultAnnotationText>
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="763" y="1075" />
+            <Position x="764" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1707,7 +1707,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1075" y="1075" />
+            <Position x="1076" y="1086" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1738,7 +1738,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="73">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1291" y="1147" />
+            <Position x="1292" y="1158" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1758,7 +1758,7 @@ Survey Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="74">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="355" y="1231" />
+            <Position x="356" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1805,7 +1805,7 @@ Survey Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="499" y="1231" />
+            <Position x="500" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1827,7 +1827,7 @@ Survey Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="76">
           <GuiSettings>
-            <Position x="619" y="1231" />
+            <Position x="620" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1856,7 +1856,7 @@ Survey Year - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="775" y="1231" />
+            <Position x="776" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1878,7 +1878,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="931" y="1231" />
+            <Position x="932" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1915,7 +1915,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="80">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1183" y="1219" />
+            <Position x="1184" y="1230" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1935,7 +1935,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="82">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1375" y="1315" />
+            <Position x="1376" y="1326" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1974,7 +1974,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="83">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1231" y="1363" />
+            <Position x="1232" y="1374" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2010,7 +2010,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-            <Position x="1387" y="1171" />
+            <Position x="1388" y="1182" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2035,7 +2035,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1483" y="1231" />
+            <Position x="1484" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -2066,7 +2066,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="86">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1711" y="1231" />
+            <Position x="1712" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2106,7 +2106,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1939" y="1231" />
+            <Position x="1940" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2132,7 +2132,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="98">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1807" y="1231" />
+            <Position x="1808" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2153,7 +2153,7 @@ Year_Survey - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="119">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="1603" y="1231" />
+            <Position x="1604" y="1242" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2215,7 +2215,7 @@ Year_Survey - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="66" y="702" width="1153" height="243" />
+        <Position x="55" y="737" width="1153" height="243" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2233,7 +2233,7 @@ Year_Survey - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="102">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="91" y="799" />
+            <Position x="80" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2326,7 +2326,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="103">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="235" y="810" />
+            <Position x="224" y="846" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2389,7 +2389,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="104">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="379" y="811" />
+            <Position x="368" y="846" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2405,6 +2405,7 @@ Query=`Data$`</DefaultAnnotationText>
 [Indicator Name] = "Employment to population ratio, 15+, total (%) (national estimate)" OR
 [Indicator Name] = "Fertility rate, total (births per woman)" OR
 [Indicator Name] = "GDP growth (annual %)" OR
+[Indicator Name] = "GDP per capita (current US$)" OR
 [Indicator Name] = "GDP per capita growth (annual %)" OR
 [Indicator Name] = "Gini index (World Bank estimate)" OR
 [Indicator Name] = "Government expenditure on education, total (% of GDP)" OR
@@ -2415,6 +2416,10 @@ Query=`Data$`</DefaultAnnotationText>
 [Indicator Name] = "Life expectancy at birth, female (years)" OR
 [Indicator Name] = "Poverty headcount ratio at national poverty lines (% of population)" OR
 [Indicator Name] = "Population growth (annual %)" OR
+[Indicator Name] = "Population density (people per sq. km of land area)" OR
+[Indicator Name] = "Population growth (annual %)" OR
+[Indicator Name] = "Population living in slums (% of urban population)" OR
+[Indicator Name] = "Population, total" OR
 [Indicator Name] = "Primary education, duration (years)" OR
 [Indicator Name] = "Unemployment, total (% of total labor force) (national estimate)" 
 ]]></Expression>
@@ -2432,7 +2437,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="105">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1135" y="823" />
+            <Position x="1124" y="858" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2458,7 +2463,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="106">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="511" y="799" />
+            <Position x="500" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2472,6 +2477,11 @@ Query=`Data$`</DefaultAnnotationText>
                 <Field field="Country Name" selected="False" />
                 <Field field="Country Code" selected="False" />
                 <Field field="Indicator Name" selected="False" />
+                <Field field="2000" selected="False" />
+                <Field field="2001" selected="False" />
+                <Field field="2002" selected="False" />
+                <Field field="2003" selected="False" />
+                <Field field="2004" selected="False" />
                 <Field field="2005" selected="True" />
                 <Field field="2006" selected="True" />
                 <Field field="2007" selected="True" />
@@ -2501,7 +2511,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="107">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="883" y="799" />
+            <Position x="872" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2527,29 +2537,33 @@ Query=`Data$`</DefaultAnnotationText>
                 <Field name="Country Name" size="255" source="CrossTab:Group:First:" type="V_String" />
                 <Field name="Country Code" size="255" source="CrossTab:Group:First:" type="V_String" />
                 <Field name="Year" source="CrossTab:Group:First:" type="Date" />
-                <Field name="Access_to_electricity____of_population_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adjusted_net_national_income__annual___growth_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adjusted_net_national_income_per_capita__annual___growth_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adolescent_fertility_rate__births_per_1_000_women_ages_15_19_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Children_in_employment__total____of_children_ages_7_14_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Current_health_expenditure____of_GDP_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Death_rate__crude__per_1_000_people_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Educational_attainment__at_least_Bachelor_s_or_equivalent__population_25___total______cumulative_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Educational_attainment__at_least_completed_primary__population_25__years__total______cumulative_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Employment_to_population_ratio__15___total______national_estimate_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Fertility_rate__total__births_per_woman_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="GDP_growth__annual___" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="GDP_per_capita_growth__annual___" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Gini_index__World_Bank_estimate_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Government_expenditure_on_education__total____of_GDP_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Human_capital_index__HCI___scale_0_1_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Labor_force_participation_rate__total____of_total_population_ages_15_64___modeled_ILO_estimate_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Life_expectancy_at_birth__female__years_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Literacy_rate__adult_total____of_people_ages_15_and_above_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Population_growth__annual___" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Poverty_headcount_ratio_at_national_poverty_lines____of_population_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Primary_education__duration__years_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Unemployment__total____of_total_labor_force___national_estimate_" scale="2" size="8" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Access_to_electricity____of_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adjusted_net_national_income__annual___growth_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adjusted_net_national_income_per_capita__annual___growth_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adolescent_fertility_rate__births_per_1_000_women_ages_15_19_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Children_in_employment__total____of_children_ages_7_14_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Current_health_expenditure____of_GDP_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Death_rate__crude__per_1_000_people_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Educational_attainment__at_least_Bachelor_s_or_equivalent__population_25___total______cumulative_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Educational_attainment__at_least_completed_primary__population_25__years__total______cumulative_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Employment_to_population_ratio__15___total______national_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Fertility_rate__total__births_per_woman_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_per_capita__current_US__" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_per_capita_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Gini_index__World_Bank_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Government_expenditure_on_education__total____of_GDP_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Human_capital_index__HCI___scale_0_1_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Labor_force_participation_rate__total____of_total_population_ages_15_64___modeled_ILO_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Life_expectancy_at_birth__female__years_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Literacy_rate__adult_total____of_people_ages_15_and_above_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_density__people_per_sq__km_of_land_area_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_living_in_slums____of_urban_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population__total" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Poverty_headcount_ratio_at_national_poverty_lines____of_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Primary_education__duration__years_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Unemployment__total____of_total_labor_force___national_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
               </RecordInfo>
               <SortInfo>
                 <Field field="Country Name" order="Asc" />
@@ -2562,11 +2576,11 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="108">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1003" y="751" />
+            <Position x="992" y="786" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_8204_26af53c015744dde82c84a1917e0465b_\Engine_18160_e1d810d9110c4f97a0637a8419d6a9da_.yxdb</TempFile>
+              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_12436_1b49b9e961ad410d8e31d3f2c9fa50cd_\Engine_10272_f9a63f67ee6448e3abda2b34d8335ec5_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2590,7 +2604,7 @@ Query=`Data$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="109">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-            <Position x="643" y="799" />
+            <Position x="632" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2612,7 +2626,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="110">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="763" y="799" />
+            <Position x="752" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2624,7 +2638,7 @@ Custom</DefaultAnnotationText>
                 <SelectField field="Indicator Name" selected="True" />
                 <SelectField field="Year" selected="True" />
                 <SelectField field="Name" selected="False" />
-                <SelectField field="Value" selected="True" type="FixedDecimal" size="8.2" />
+                <SelectField field="Value" selected="True" type="FixedDecimal" size="20.2" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -2639,7 +2653,7 @@ Custom</DefaultAnnotationText>
         </Node>
         <Node ToolID="111">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1015" y="823" />
+            <Position x="1004" y="858" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2659,6 +2673,7 @@ Custom</DefaultAnnotationText>
                 <SelectField field="Employment_to_population_ratio__15___total______national_estimate_" selected="True" rename="Employment to pop ratio " />
                 <SelectField field="Fertility_rate__total__births_per_woman_" selected="True" rename="Fertility rate total births per woman" />
                 <SelectField field="GDP_growth__annual___" selected="True" rename="GDP growth annual" />
+                <SelectField field="GDP_per_capita__current_US__" selected="True" rename="GDP per capita current US" />
                 <SelectField field="GDP_per_capita_growth__annual___" selected="True" rename="GDP per capita growth annual" />
                 <SelectField field="Gini_index__World_Bank_estimate_" selected="True" rename="Gini index World Bank estimate" />
                 <SelectField field="Government_expenditure_on_education__total____of_GDP_" selected="True" rename="Gov expenditure on education total of GDP" />
@@ -2666,7 +2681,10 @@ Custom</DefaultAnnotationText>
                 <SelectField field="Labor_force_participation_rate__total____of_total_population_ages_15_64___modeled_ILO_estimate_" selected="True" rename="Labor force participation of total pop" />
                 <SelectField field="Life_expectancy_at_birth__female__years_" selected="True" rename="Life expectancy at brith" />
                 <SelectField field="Literacy_rate__adult_total____of_people_ages_15_and_above_" selected="True" rename="Literacy rate adult total " />
+                <SelectField field="Population_density__people_per_sq__km_of_land_area_" selected="True" rename="Population density people per sq km of land" />
                 <SelectField field="Population_growth__annual___" selected="True" rename="Population growth annual" />
+                <SelectField field="Population_living_in_slums____of_urban_population_" selected="True" rename="Population living in slums of urban population" />
+                <SelectField field="Population__total" selected="True" rename="Population total" />
                 <SelectField field="Poverty_headcount_ratio_at_national_poverty_lines____of_population_" selected="True" rename="Poverty headcount ratio at national poverty lines" />
                 <SelectField field="Primary_education__duration__years_" selected="True" rename="Primary education duration years" />
                 <SelectField field="Unemployment__total____of_total_labor_force___national_estimate_" selected="True" rename="Unemployment total of total labor force " />
