@@ -2537,33 +2537,33 @@ Query=`Data$`</DefaultAnnotationText>
                 <Field name="Country Name" size="255" source="CrossTab:Group:First:" type="V_String" />
                 <Field name="Country Code" size="255" source="CrossTab:Group:First:" type="V_String" />
                 <Field name="Year" source="CrossTab:Group:First:" type="Date" />
-                <Field name="Access_to_electricity____of_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adjusted_net_national_income__annual___growth_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adjusted_net_national_income_per_capita__annual___growth_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Adolescent_fertility_rate__births_per_1_000_women_ages_15_19_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Children_in_employment__total____of_children_ages_7_14_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Current_health_expenditure____of_GDP_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Death_rate__crude__per_1_000_people_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Educational_attainment__at_least_Bachelor_s_or_equivalent__population_25___total______cumulative_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Educational_attainment__at_least_completed_primary__population_25__years__total______cumulative_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Employment_to_population_ratio__15___total______national_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Fertility_rate__total__births_per_woman_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="GDP_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="GDP_per_capita__current_US__" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="GDP_per_capita_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Gini_index__World_Bank_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Government_expenditure_on_education__total____of_GDP_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Human_capital_index__HCI___scale_0_1_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Labor_force_participation_rate__total____of_total_population_ages_15_64___modeled_ILO_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Life_expectancy_at_birth__female__years_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Literacy_rate__adult_total____of_people_ages_15_and_above_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Population_density__people_per_sq__km_of_land_area_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Population_growth__annual___" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Population_living_in_slums____of_urban_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Population__total" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Poverty_headcount_ratio_at_national_poverty_lines____of_population_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Primary_education__duration__years_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
-                <Field name="Unemployment__total____of_total_labor_force___national_estimate_" scale="2" size="20" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Access_to_electricity____of_population_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adjusted_net_national_income__annual___growth_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adjusted_net_national_income_per_capita__annual___growth_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Adolescent_fertility_rate__births_per_1_000_women_ages_15_19_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Children_in_employment__total____of_children_ages_7_14_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Current_health_expenditure____of_GDP_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Death_rate__crude__per_1_000_people_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Educational_attainment__at_least_Bachelor_s_or_equivalent__population_25___total______cumulative_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Educational_attainment__at_least_completed_primary__population_25__years__total______cumulative_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Employment_to_population_ratio__15___total______national_estimate_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Fertility_rate__total__births_per_woman_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_growth__annual___" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_per_capita__current_US__" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="GDP_per_capita_growth__annual___" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Gini_index__World_Bank_estimate_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Government_expenditure_on_education__total____of_GDP_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Human_capital_index__HCI___scale_0_1_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Labor_force_participation_rate__total____of_total_population_ages_15_64___modeled_ILO_estimate_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Life_expectancy_at_birth__female__years_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Literacy_rate__adult_total____of_people_ages_15_and_above_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_density__people_per_sq__km_of_land_area_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_growth__annual___" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population_living_in_slums____of_urban_population_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Population__total" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Poverty_headcount_ratio_at_national_poverty_lines____of_population_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Primary_education__duration__years_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
+                <Field name="Unemployment__total____of_total_labor_force___national_estimate_" scale="2" size="30" source="File: D:\Training\DA_Bootcamp\Capstone2\Raw Data\WDI\WDIEXCEL.xlsx|||`Data$`" type="FixedDecimal" />
               </RecordInfo>
               <SortInfo>
                 <Field field="Country Name" order="Asc" />
@@ -2580,7 +2580,7 @@ Query=`Data$`</DefaultAnnotationText>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_12436_1b49b9e961ad410d8e31d3f2c9fa50cd_\Engine_10272_f9a63f67ee6448e3abda2b34d8335ec5_.yxdb</TempFile>
+              <TempFile>C:\Users\Paola\AppData\Local\Temp\Engine_12836_ef581b329f2e40d58c732493a09b8722_\Engine_14648_4231e10f3b00437584f72d44af24db1d_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2638,7 +2638,7 @@ Custom</DefaultAnnotationText>
                 <SelectField field="Indicator Name" selected="True" />
                 <SelectField field="Year" selected="True" />
                 <SelectField field="Name" selected="False" />
-                <SelectField field="Value" selected="True" type="FixedDecimal" size="20.2" />
+                <SelectField field="Value" selected="True" type="FixedDecimal" size="30.2" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
